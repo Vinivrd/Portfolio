@@ -18,6 +18,7 @@ const Computers = ({isMobile}) => {
         constShadow
         shadow-mapSize= {1024}
       />
+     
       <primitive
         object={computer.scene} 
         scale = {isMobile? 0.7:0.75}
@@ -27,6 +28,7 @@ const Computers = ({isMobile}) => {
     </mesh>
   )
 }
+
 
 const ComputersCanvas = () => {
   const [isMobile,setIsMobile] = useState(false);
@@ -53,17 +55,19 @@ const ComputersCanvas = () => {
       frameloop="demand"
       shadows
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-      >
+      gl={{ preserveDrawingBuffer: true }}>
+
         <Suspense fallback ={<CanvasLoader/>}>
+
           <OrbitControls
            enableZoom = {false}
            maxPolarAngle = {Math.PI/2}
            minPolarAngle = {Math.PI/2}
           />
+          
           <Computers isMobile = {isMobile}/>
-        </Suspense>
 
+        </Suspense>
         <Preload all/>
     </Canvas>
   )
