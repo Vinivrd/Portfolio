@@ -22,11 +22,11 @@ const  App = () => {
         <Feedbacks />
       </div>
 
-      <div className="relative z-0">
+      <div className="relative z-0 bg-primary">
         <Contact />
         <StarsCanvas />
       </div>
-
+      
     </BrowserRouter>
   )
 }
