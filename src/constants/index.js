@@ -116,7 +116,14 @@ import {
       name: "photoshop",
       icon: ps,
     },
-    
+    {
+      name: "photoshop",
+      icon: ps,
+    },
+    {
+      name: "photoshop",
+      icon: ps,
+    },
   ];
   
   const experiences = [
