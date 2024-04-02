@@ -6,12 +6,13 @@ import CanvasLoader from "../Loader";
 
 const Aero = ({isMobile}) => {
   const aeroNave = useGLTF('./aeronave/scene.gltf');
+
   return (
     <mesh>
       {<hemisphereLight intensity={0.15} groundColor='black' />}
       {<pointLight intensity ={1}/>}
       <spotLight
-        position={[-20,50,10]}
+        position={[-10,50,10]}
         angle = {0.12}
         penumbra = {1}
         intensity = {1}
@@ -21,8 +22,8 @@ const Aero = ({isMobile}) => {
      
       <primitive
         object={aeroNave.scene} 
-        scale = {isMobile ? 0.7:0.75}
-        position = {isMobile?[0.-3.-2.2]:[0,-3.25,-1.5]}
+        scale = {isMobile ? 2:2.5}
+        position = {isMobile?[-1,-1.5,-1]:[0,-1.25,0]}
         rotation = {[-0.01,-0.2,-0.1]}
       />
     </mesh>
@@ -30,7 +31,8 @@ const Aero = ({isMobile}) => {
 }
 
 
-const AeroCanvas = () => {
+
+export const AeroCanvas = () => {
   const [isMobile,setIsMobile] = useState(false);
 
   useEffect(()=>{
@@ -54,7 +56,7 @@ const AeroCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      camera={{ position: [20, -3, 10], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}>
 
         <Suspense fallback ={<CanvasLoader/>}>
@@ -72,5 +74,3 @@ const AeroCanvas = () => {
     </Canvas>
   )
 }
-
-export default AeroCanvas;
