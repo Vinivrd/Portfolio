@@ -1,13 +1,15 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF,PerspectiveCamera } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
+
 
 const Aero = ({isMobile}) => {
   const aeroNave = useGLTF('./aeronave/scene.gltf');
 
   return (
+
     <mesh>
       {<hemisphereLight intensity={0.15} groundColor='black' />}
       {<pointLight intensity ={1}/>}
@@ -22,7 +24,7 @@ const Aero = ({isMobile}) => {
      
       <primitive
         object={aeroNave.scene} 
-        scale = {isMobile ? 2:2.5}
+        scale = {isMobile ? 1:2.5}
         position = {isMobile?[-1,-1.5,-1]:[0,-1.25,0]}
         rotation = {[-0.01,-0.2,-0.1]}
       />
@@ -56,7 +58,7 @@ export const AeroCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
-      camera={{ position: [20, -3, 10], fov: 25 }}
+      camera={{ position: [20, -5, 20], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}>
 
         <Suspense fallback ={<CanvasLoader/>}>
