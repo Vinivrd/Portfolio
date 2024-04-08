@@ -174,7 +174,7 @@ import {
     },
     {
       testimonial:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, dolores. Debitis, quia?",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit1. Vel, dolores. Debitis, quia?",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
