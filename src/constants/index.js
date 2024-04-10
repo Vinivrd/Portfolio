@@ -111,10 +111,6 @@ import {
     {
       name: "python",
       icon: python,
-    },
-    {
-      name: "photoshop",
-      icon: ps,
     }
   ];
   

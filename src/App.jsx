@@ -9,10 +9,14 @@ const  App = () => {
 
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover
-        bg-no-repeat bg-center">
-          <Navbar />
-          <Hero />
+          bg-no-repeat bg-center">
+          <Navbar/>
         </div>
+
+        <div className="relative z-0 bg-primary">
+            <Hero/> 
+            <StarsCanvas />
+       </div>
 
         <About/>
         <Experience />

@@ -14,6 +14,7 @@
     "@react-three/drei": "^9.102.6",
     "@react-three/fiber": "^8.15.19",
     "framer-motion": "^11.0.18",
+    "leva": "^0.9.35",
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
