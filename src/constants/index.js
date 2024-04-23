@@ -198,7 +198,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vinivrd",
     },
     {
       name: "Job IT",
@@ -219,7 +219,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vinivrd",
     },
     {
       name: "Trip Guide",
@@ -240,7 +240,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Vinivrd",
     },
   ];
   
