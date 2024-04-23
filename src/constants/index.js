@@ -12,17 +12,14 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     c,
     java,
     nextJs,
-    ps,
     python,
-    solana,
     itag,
     cdd,
     nasOndas,
-    carrent,
+    admin_dash,
     jobit,
     tripguide,
     threejs,
@@ -180,16 +177,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Admin-Dashboard",
       description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit1. Vel, dolores. Debitis, quia?",
+      "This is my personal project where I utilize Syncfusion and Tailwind.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "syncfusion",
           color: "green-text-gradient",
         },
         {
@@ -197,8 +194,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/Vinivrd",
+      image: admin_dash ,
+      source_code_link: "https://admin-dashboard-git-main-vinicius-diniz-s-projects.vercel.app/",
     },
     {
       name: "Job IT",

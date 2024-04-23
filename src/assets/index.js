@@ -33,7 +33,7 @@ import itag from "./company/itag.png";
 import cdd from "./company/cdd.png"
 import nasOndas from "./company/nasOndas.png"
 
-import carrent from "./carrent.png";
+import admin_dash from "./admin_dash.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -66,7 +66,7 @@ export {
   nasOndas,
   cdd,
   itag,
-  carrent,
+  admin_dash,
   jobit,
   tripguide,
 };

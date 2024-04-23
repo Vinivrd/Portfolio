@@ -73,11 +73,7 @@ const Works = () => {
         <motion.p
           variants={fadeIn("","",0.1,1)}
           className = "mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing
-             elit. Quia repellendus cum eos ad doloremque. 
-             Veritatis nostrum tenetur sint sapiente expedita 
-             error doloribus! Sit voluptate voluptatibus laborum 
-             eligendi labore odit! Dicta!
+            This section has some projects that I've done, so enjoy them.
       
         </motion.p>
       </div>

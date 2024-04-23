@@ -55,11 +55,10 @@ const About = () => {
     className ="mt-4 text-secondary text-[17px]
     max-w-3xl leading-[30px]"
     >
-      Lorem ipsum dolor sit amet consectetur adipisicing
-             elit. Quia repellendus cum eos ad doloremque. 
-             Veritatis nostrum tenetur sint sapiente expedita 
-             error doloribus! Sit voluptate voluptatibus laborum 
-             eligendi labore odit! Dicta!
+      Hello! My name is Vinicius and I'm currently making a career transition to become a full stack developer
+      . I'm studying Information Systems at the University of São Paulo and, at the same time, studying web development
+       in a self-taught way.
+       below are my skills:
     </motion.p>
 
     <div className='mt-20 flex flex-wrap gap-10'>
