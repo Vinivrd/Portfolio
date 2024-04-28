@@ -117,22 +117,22 @@ import {
       company_name: "Itag",
       icon: itag,
       iconBg: "#f18322",
-      date: "Março 2018 -  Maio 2018",
+      date: "March 2018 - May 2018",
       points: [
-        "Aprendi o básico sobre linguagem de programação.",
-        "Conversei com clientes em Inglês.",
-        "Entendi o funcionamento da tecnologia RFID, com uso de etiquetas."
+        "Learned the basics of programming language.",
+        "Conversed with clients in English.",
+        "Understood the functioning of RFID technology, including the use of tags."
       ],
     },
     {
-      title: "Vendedor",
+      title: "Salesperson",
       company_name: "NasOndas",
       icon: nasOndas,
       iconBg: "#E6DEDD",
-      date: "Julho 2019 - Setembro 2019",
+      date: "July 2019 - September 2019",
       points: [
-        "Aprendi muito sobre PNL.",
-        "Conversar com clientes e vender produtos",
+        "Learned a lot about NLP.",
+        "Conversing with customers and selling products."
       ],
     },
     {
@@ -140,10 +140,10 @@ import {
       company_name: "Casa de David",
       icon: cdd,
       iconBg: "#E6DEDD",
-      date: "Janeiro 2021 - Novembro 2021",
+      date: "January 2021 - November 2021",
       points: [
-        "Fiquei 4 meses na T.I (Onde eu arrumava computador  e instalava câmeras de segurança) ",
-        "7 meses no marketing, onde eu editava vídeos e cuidava do site para arrecadar doações",
+        "Spent 4 months in IT (where I fixed computers and installed security cameras).",
+        "7 months in marketing, where I edited videos and managed the website to raise donations."
       ],
     },
   ];
