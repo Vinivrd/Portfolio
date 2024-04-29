@@ -196,49 +196,8 @@ import {
       ],
       image: admin_dash ,
       source_code_link: "https://admin-dashboard-git-main-vinicius-diniz-s-projects.vercel.app/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit1. Vel, dolores. Debitis, quia?",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/Vinivrd",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit1. Vel, dolores. Debitis, quia?",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/Vinivrd",
-    },
+    }
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };
