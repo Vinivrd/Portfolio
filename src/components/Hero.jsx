@@ -22,12 +22,12 @@ const LogoFoto = () => {
             scale: 1,
             speed: 250
           }}
-          className="flex justify-evenly items-center flex-col"
+          className="flex justify-evenly items-center flex-col "
         >
           <motion.img 
             src={meuLogo} 
             alt="Meu Logo" 
-            className="w-[550px] h-auto object-contain"
+            className="w-[550px] h-auto object-contain shadow-card rounded-full" 
             initial={{ scale: 0.5, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{
