@@ -1,4 +1,3 @@
-
 import logo from "./logoSiteRounded.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -7,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import meuLogo from './meuLogo.png';
 
 //tech
 import css from "./tech/css.png";
@@ -69,4 +69,5 @@ export {
   admin_dash,
   jobit,
   tripguide,
+  meuLogo,
 };
