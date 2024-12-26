@@ -17,6 +17,7 @@ import {
     nextJs,
     icmc,
     logoOsnossos,
+    pingadoImg,
     python,
     itag,
     cdd,
@@ -25,6 +26,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    discordFoto
   } from "../assets";
   
   export const navLinks = [
@@ -218,6 +220,48 @@ import {
       ],
       image: admin_dash ,
       source_code_link: "https://admin-dashboard-git-main-vinicius-diniz-s-projects.vercel.app/",
+    },
+    {
+      name: "Repingado",
+      description:
+      "This is my personal project, where I developed a website for my shared housing.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "syncfusion",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pingadoImg ,
+      source_code_link: "https://repingado.vercel.app/",
+    },
+    {
+      name: "Bot Discord",
+      description:
+      "I created this bot with various features, including integration with ChatGPT, music playback, chat clearing, and more, available for anyone who wants to use it.",
+      tags: [
+        {
+          name: "Js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Api",
+          color: "green-text-gradient",
+        },
+        {
+          name: "discord.js",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: discordFoto ,
+      source_code_link: "https://github.com/Vinivrd/BotDiscord",
     }
    
   ];

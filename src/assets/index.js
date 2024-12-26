@@ -36,6 +36,8 @@ import icmc from "./company/logoIcmc.png"
 import logoOsnossos from "./company/logoOsNossos.png"
 
 import admin_dash from "./admin_dash.png";
+import pingadoImg from "./pingadoImg.png"
+import discordFoto from "./discordFoto.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -69,9 +71,11 @@ export {
   cdd,
   itag,
   admin_dash,
+  pingadoImg,
   jobit,
   tripguide,
   meuLogo,
   icmc,
-  logoOsnossos
+  logoOsnossos,
+  discordFoto
 };
