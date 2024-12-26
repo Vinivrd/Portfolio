@@ -32,6 +32,8 @@ import solana from "./tech/solana.png";
 import itag from "./company/itag.png";
 import cdd from "./company/cdd.png"
 import nasOndas from "./company/nasOndas.png"
+import icmc from "./company/logoIcmc.png"
+import logoOsnossos from "./company/logoOsNossos.png"
 
 import admin_dash from "./admin_dash.png";
 import jobit from "./jobit.png";
@@ -70,4 +72,6 @@ export {
   jobit,
   tripguide,
   meuLogo,
+  icmc,
+  logoOsnossos
 };

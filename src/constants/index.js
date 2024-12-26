@@ -15,6 +15,8 @@ import {
     c,
     java,
     nextJs,
+    icmc,
+    logoOsnossos,
     python,
     itag,
     cdd,
@@ -46,7 +48,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Ionic Developer",
       icon: mobile,
     },
     {
@@ -54,7 +56,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Designer",
       icon: creator,
     },
   ];
@@ -144,6 +146,26 @@ import {
       points: [
         "Spent 4 months in IT (where I fixed computers and installed security cameras).",
         "7 months in marketing, where I edited videos and managed the website to raise donations."
+      ],
+    },
+    {
+      title: "Developer",
+      company_name: "USP",
+      icon: icmc,
+      iconBg: "#E6DEDD",
+      date: "2024 June - August",
+      points: [
+        "Developed a platform for the University of São Paulo to streamline processes such as withdrawing from courses and filling out various forms, implementing automation to enhance efficiency."
+      ],
+    },
+    {
+      title: "Developer mobile",
+      company_name: "Os nossos",
+      icon: logoOsnossos,
+      iconBg: "#E6DEDD",
+      date: "2024 August - Now",
+      points: [
+        "I am a full-stack mobile developer, working with tools such as Ionic with Angular for the frontend and Symfony for the backend."
       ],
     },
   ];
